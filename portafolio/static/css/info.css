@@ -1,0 +1,63 @@
+#content__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#info{
+    background:#333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#info h4{
+    padding: 1.5rem;
+}
+
+.info-football{
+    margin:0;
+
+}
+.info-football img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    border: 7px solid #ffffff;
+}
+.info-football{
+    padding: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+
+    #content__info{
+      display: flex;
+        flex-wrap: nowrap;
+    }
+    #content__info{
+        width: auto;
+    }
+}
+
+@media (min-width:768px){
+
+    #content__info{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+
+    }
+    .info-football{
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+

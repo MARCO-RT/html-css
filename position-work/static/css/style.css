@@ -1,0 +1,108 @@
+/*selectores de clase*/
+.miclase{
+
+}
+
+#mi_id{
+
+}
+ /*selector de atributo*/
+p{
+
+}
+
+a[href^="mailto"]{
+    font-size: 3rem;
+}
+
+a[href$=".html"]{
+
+    color: peru;
+    font-size: 5rem;
+}
+
+h1[title]{
+
+    color: red;
+    background: blueviolet;
+}
+
+h2[title*="pagina"]{
+    color: red;
+}
+
+/*selectores adyacentes*/
+
+h1 + h2 {
+    background: springgreen;
+    color:white;
+}
+
+
+/*h1 ~ h2{*/
+    /*background: darkgreen;*/
+    /*color: springgreen;*/
+/*}*/
+
+
+div p a {
+
+    font-size: 10rem;
+}
+
+.parrafo:first-line{
+    color: darkgreen;
+}
+
+.parrafo:first-letter{
+    font-size: 1rem;
+}
+
+.parrafo:before{
+    content: "agregacion";
+    font-size: 2rem;
+}
+
+.parrafo:after{
+    content: "final";
+    font-size: 2rem;
+}
+table{
+    border: 2px solid blueviolet;
+}
+
+/*tr:first-child{*/
+    /*background: blue;*/
+/*}*/
+/*tr:last-child{*/
+    /*background: violet;*/
+/*}*/
+
+/*tr:nth-child(3){*/
+    /*background: salmon;*/
+/*}*/
+
+/*tr:nth-last-child(2){*/
+    /*background: fuchsia;*/
+/*}*/
+
+/*tr:nth-child(2n){*/
+    /*background: orange;*/
+/*}*/
+tr:nth-child(2n+1){
+    background: palegreen;
+}
+
+tr{
+    transition: 1s;
+}
+
+tr:hover:nth-child(2n+1){
+    background: mediumvioletred;
+    font-size: 50px;
+}
+
+tr:hover:nth-child(2n){
+    background: mediumvioletred;
+    font-size: 50px;
+}

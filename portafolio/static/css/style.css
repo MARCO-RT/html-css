@@ -67,8 +67,10 @@ footer .contenedor{
     background: #ffffff;
 }
 
- .socials a:hover{
-    background: skyblue;
+ .socials i:hover{
+    color: skyblue;
+     font-size: 30px;
+     border-radius: 50%;
 }
 
 @media (min-width: 1024px) {

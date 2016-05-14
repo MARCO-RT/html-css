@@ -19,7 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: #706D6C;
+    color:#e81b39 ;
 
 }
 .content__son p{
@@ -37,7 +37,7 @@
     text-decoration: none;
     padding: 7px;
     margin-top: 10px;
-    border: 3px solid #F77474;
+    border: 3px solid #e81b39;
 
 
 }
@@ -55,6 +55,9 @@
     #banner a{
         margin-top: 40px;
     }
+    .content__son p{
+        font-size: 22px;
+    }
 }
 
 @media (min-width:760px ) {
@@ -65,12 +68,32 @@
     #banner img{
         height: auto;
     }
+    .content__son p{
+        font-size: 25px;
+    }
 }
 @media (min-width:1024px ) {
 
     #banner img{
         height: auto;
         margin-bottom: -100px;
+    }
+
+    #banner h2{
+        font-size: 50px;
+    }
+    .content__son p{
+        font-size: 30px;
+    }
+    #banner h2:hover{
+        font-size: 53px;
+        color: #044297;
+    }
+    #welcome p{
+        padding: 2rem;
+    }
+    #blog h2{
+        padding: 2rem;
     }
 
 }

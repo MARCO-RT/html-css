@@ -37,6 +37,10 @@
     #content__info{
         width: auto;
     }
+    #contentWelcome .info-football{
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
 @media (min-width:768px){
